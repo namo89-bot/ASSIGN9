@@ -1,0 +1,45 @@
+.menucontainer {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: stretch; 
+    border-bottom: 1px solid #ccc;
+}
+
+.logoimg {
+    height: 100%;       
+    width: auto;        
+    padding: 10px 20px; 
+    background-color: transparent; 
+    display: flex;
+    align-items: center;
+}
+
+.itemcontainer {
+    width: 120px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: flex-end; 
+    align-items: center;       
+    
+    padding-bottom: 10px;      
+    height: 100%;              
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: grey;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.itemcontainer:hover {
+    background-color: #f9f9f9;
+}

@@ -1,0 +1,38 @@
+.menucontainer {
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 30;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: stretch; 
+}
+
+.logoimg {
+    height: 100%;
+    width: auto;
+    padding: 5px 15px; 
+}
+
+.itemcontainer {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: grey;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.itemcontainer:hover {
+    background-color: #f5f5f5;
+}
